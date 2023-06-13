@@ -17,6 +17,8 @@ This GitHub repository is meant to accompany the article, _Bubbles & Burrows: Ch
     
 Assembly details, full parts list, and cost estimate available in repo.
 
+G-code & Setup Reference: https://github.com/synthetos/TinyG/wiki/Homing-and-Limits-Description-and-Operation
+
 ## Code
 **Bubble_Injection_Aug2022.ino**: Initiates automatic air injection procedures based on serial input, logs pressure sensor data to an SD card
 
