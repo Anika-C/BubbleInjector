@@ -2,7 +2,7 @@
 
 The Bubble Injector is a DIY scientific instrument designed to measure the fracture toughness (K<sub>Ic</sub>) of cohesive sediments using a bubble injection method. The system induces fracture in sediment samples by incrementally injecting air through a needle. The rising air pressure is monitored until it drops abruptly, indicating bubble formation. Fracture toughness is then calculated from the peak pressure at which fracture occurred. The system allows for measuring a depth profile with small-scale resolution and has produced measurements that compare well to past data.
 
-This GitHub repository is meant to accompany the article, _Bubbles & Burrows: Characterizing the Fracture Behavior of Marine Sediments Via Bubble Injection_.
+This GitHub repository is meant to accompany the article, _Bubbles & Burrows: Characterizing the Fracture Behavior of Marine Sediments Via Bubble Injection_ (in prep).
 
 ## Hardware
   + Syringe Pump:
