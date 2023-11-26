@@ -19,6 +19,8 @@ Assembly details, full parts list, and cost estimate available in repo.
 
 G-code & Setup Reference: https://github.com/synthetos/TinyG/wiki/Homing-and-Limits-Description-and-Operation
 
+TinyG CNC Stepper Motor Controller configuration details: **TinyG_Config_Settings.txt**
+
 ## Code
 **Bubble_Injection_Aug2022.ino**: Initiates automatic air injection procedures based on serial input, logs pressure sensor data to an SD card
 
