@@ -1,0 +1,36 @@
+Adjust TinyG settings through the Arduino IDE
+Serial input:
+"$z" to display all settings for z axis 
+"$3" to display all settings for m3 (motor 3, z axis)
+
+Individually view and/or change settings:
+Ex: "$3sa = ?" to view current ztm (z travel maximum) setting
+Ex: "$3sa = 0.9" to change m3 step angle to 0.9 degrees
+
+Zaxis Settings - 1/4-20 lead screw, 3mL syringe
+[zam] z axis mode                 1 [standard]
+[zvm] z velocity maximum        800 mm/min
+[zfr] z feedrate maximum        800 mm/min
+[ztn] z travel minimum         -160.000 mm
+[ztm] z travel maximum           75.000 mm
+[zjm] z jerk maximum             20 mm/min^3 * 1 million
+[zjh] z jerk homing              40 mm/min^3 * 1 million
+[zjd] z junction deviation        0.0500 mm 
+[zsn] z switch min                0 [0=off,1=homing,2=limit,3=limit+homing]
+[zsx] z switch max                3 [0=off,1=homing,2=limit,3=limit+homing]
+[zsv] z search velocity          35 mm/min
+[zlv] z latch velocity           15 mm/min
+[zlb] z latch backoff             0.500 mm
+[zzb] z zero backoff              3.300 mm
+
+[3ma] m3 map to axis              2 [0=X,1=Y,2=Z...]
+[3sa] m3 step angle               0.900 deg
+[3tr] m3 travel per revolution    0.07463 mL		// 1/4-20 lead screw = 1.27mm/rotation
+			    	  			// (1.27mm/rev) * (1mL/17.0168mm for 3mL syringe) = 0.07463mL/rev
+[3mi] m3 microsteps               8 [1,2,4,8]
+[3po] m3 polarity                 0 [0=normal,1=reverse]
+[3pm] m3 power management         2 [0=disabled,1=always on,2=in cycle,3=when moving]
+
+
+
+
